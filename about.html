@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/Greta.jpg" alt="Logo">
+        </a>
+        <div class="burger-button" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <div class="menu" id="sideMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="hobbies.html">Hobbies</a>
+    </div>
+
+    <div class="container animated-text">
+        <section class="section" id="about-me">
+            <h1>About Me</h1>
+            <img src="images/ProfilePicture.jpg" alt="Greta Murnevaite" class="profile-picture">
+            <p>2019 graduate of Gabijos gimnazium.</p>
+            <p>2023 received a Bachelor’s degree</p>
+            <p>2023 completed a 3-month internship at CGI.</p>
+        </section>
+
+        <section class="section" id="contact">
+            <h1>Contact</h1>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:greta.murnevaite@gmail.com">greta.murnevaite@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: +37066192000</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Greta Murnevaite</p>
+    </footer>   
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('sideMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

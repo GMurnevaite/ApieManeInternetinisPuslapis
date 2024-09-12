@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/Greta.jpg" alt="Logo">
+        </a>
+        <div class="burger-button" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    
+    <div class="menu" id="sideMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="hobbies.html">Hobbies</a>
+    </div>
+
+    <div class="container">
+        <h1>Hobbies</h1>
+        <div class="hobbies-section">
+            <div class="hobby-item">
+                <img src="images/reading.jpg" alt="Reading" class="hobby-image">
+                <h2>Reading</h2>
+                <p>I love to immerse myself in different worlds through books. Fiction, non-fiction, and everything in between.</p>
+            </div>
+            <div class="hobby-item">
+                <img src="images/swimming.jpg" alt="Swimming" class="hobby-image">
+                <h2>Swimming</h2>
+                <p>Swimming helps me stay fit and fresh. I enjoy both pool and open water swimming.</p>
+            </div>
+            <div class="hobby-item">
+                <img src="images/walking.jpg" alt="Walking" class="hobby-image">
+                <h2>Walking</h2>
+                <p>Walking through nature is my way to unwind and connect with the outdoors.</p>
+            </div>
+            <div class="hobby-item">
+                <img src="images/traveling.jpg" alt="Traveling" class="hobby-image">
+                <h2>Traveling</h2>
+                <p>Exploring new cultures and places is something that always excites me.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Greta Murnevaite</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('sideMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

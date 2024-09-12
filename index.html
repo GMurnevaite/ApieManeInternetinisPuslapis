@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/Greta.jpg" alt="Logo">
+        <div class="burger-button" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <div class="menu" id="sideMenu">
+        <a href="about.html">About Me</a>
+        <a href="hobbies.html">Hobbies</a>
+    </div>
+    <div class="animated-text">
+        <h1>Hi!</h1>
+        <h1>Welcome to my page</h1>
+        <h1>This page was created to showcase what I learned in the course</h1>
+        <h1>Special thank you to <a href="https://www.iamjunior.lt/">IamJunior</a></h1>
+        <h1>And all the lecturers</h1>
+    </div>
+    <div>
+        <img src="images/Thankyou.png" alt="Thank You" class="thankyou-img">
+    </div>
+    <footer>
+        <p>&copy; 2024 Greta Murnevaite</p>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('sideMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

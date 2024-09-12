@@ -1,1 +1,1 @@
-Internetis puslapis sukurtas kaip baigiamasis projektas kursui Web programavimas su Javascript.
+This is the final project for course web programing with Javascript. There is represented small page with several sections, images some text to represent the knowledge gained in this curse.
